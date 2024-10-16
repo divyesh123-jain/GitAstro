@@ -2,6 +2,7 @@ import { GoogleGenerativeAI } from '@google/generative-ai';
 
 const genAI = new GoogleGenerativeAI(process.env.GEMINI_API_KEY!);
 
+// eslint-disable-next-line @typescript-eslint/no-explicit-any
 export async function generateHoroscope(userData: any) {
   const model = genAI.getGenerativeModel({ model: 'gemini-pro' });
 

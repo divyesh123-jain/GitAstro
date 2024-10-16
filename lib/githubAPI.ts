@@ -12,6 +12,7 @@ export async function getGitHubUserData(githubId: string) {
   const userData = userResponse.data;
   const repos = reposResponse.data;
 
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
   const languages = repos.map((repo: any) => repo.language).filter(Boolean);
   const uniqueLanguages = Array.from(new Set(languages));
 
