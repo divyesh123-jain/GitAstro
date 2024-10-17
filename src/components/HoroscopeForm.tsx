@@ -24,7 +24,7 @@ export default function HoroscopeForm({ onSubmit }: HoroscopeFormProps) {
       }
     } catch (error) {
       // If there's an error, set an error message
-      setErrorMessage('Invalid GitHub username. Please try again.');
+      setErrorMessage('Invalid GitHub username. Please try again.' + error);
     }
   };
 
