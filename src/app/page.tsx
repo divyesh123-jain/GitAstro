@@ -54,7 +54,7 @@ export default function Home() {
       ) : (
         horoscope && (
           <div
-            className="bg-white w-full max-w-[550px] rounded-[30px] flex flex-col hover:shadow-lg min-h-[280px] dark:bg-gray-800 dark:text-white items-start relative group mt-6 p-4 sm:p-6 lg:p-10"
+            className=" w-full max-w-[550px] rounded-[30px] flex flex-col hover:shadow-lg min-h-[280px] dark:bg-gray-800 dark:text-white items-start relative group mt-6 p-4 sm:p-6 lg:p-10"
           >
             <div className="m-3">
               <HoroscopeResult horoscope={horoscope} />
