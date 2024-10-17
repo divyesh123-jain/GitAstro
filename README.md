@@ -1,6 +1,6 @@
-# GitHub Horoscope: AI-Based Code Zodiac ✨🔮
+# GitAstro: AI-Based Code Zodiac ✨🔮
 
-Welcome to **GitHub Horoscope**, an AI-powered app that assigns developers a "coding zodiac sign" based on their GitHub profile activity and generates playful horoscopes about their coding journey! Whether you're a **Bugittarius** who thrives under pressure or a **Refactoricorn** obsessed with clean code, this app will bring some fun to your daily coding routine.
+Welcome to **GitAstro**, an AI-powered app that assigns developers a "coding zodiac sign" based on their GitHub profile activity and generates playful horoscopes about their coding journey! Whether you're a **Bugittarius** who thrives under pressure or a **Refactoricorn** obsessed with clean code, this app will bring some fun to your daily coding routine.
 
 ## 🎯 Features
 - **Enter GitHub ID:** Users input their GitHub ID, and the app analyzes their profile, including:
