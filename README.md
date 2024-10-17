@@ -1,36 +1,36 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# GitHub Horoscope: AI-Based Code Zodiac ✨🔮
 
-## Getting Started
+Welcome to **GitHub Horoscope**, an AI-powered app that assigns developers a "coding zodiac sign" based on their GitHub profile activity and generates playful horoscopes about their coding journey! Whether you're a **Bugittarius** who thrives under pressure or a **Refactoricorn** obsessed with clean code, this app will bring some fun to your daily coding routine.
 
-First, run the development server:
+## 🎯 Features
+- **Enter GitHub ID:** Users input their GitHub ID, and the app analyzes their profile, including:
+  - Programming languages used
+  - Number of commits and most active coding hours
+  - Repository creation frequency and commit history
+  - Open issues and pull requests
+  
+- **Code Zodiac Sign Assignment:** Based on the analysis, the app assigns one of several funny "code zodiac signs" like **Bugittarius**, **Refactoricorn**, **Mergequarius**, or **Commitricorn**.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- **Funny Horoscope Generation:** The app uses the Gemini API to generate humorous horoscopes based on the user's coding habits.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- **Share and Compare:** Users can share their horoscopes or compare their "zodiac signs" with friends. The app even suggests "compatibility" with other developers based on their signs.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 🚀 Tech Stack
+- **Frontend:** [Next.js (App Router)](https://nextjs.org/docs/app), [TypeScript](https://www.typescriptlang.org/)
+- **Styling:** [Tailwind CSS](https://tailwindcss.com/)
+- **API Integration:** [Gemini API](https://geminiapi.com/)
+- **GitHub API:** Fetch GitHub user data using [GitHub's REST API](https://docs.github.com/en/rest).
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 🛠️ Getting Started
 
-## Learn More
+### Prerequisites
+Make sure you have the following installed:
+- [Node.js](https://nodejs.org/) (v18 or above)
+- [npm](https://www.npmjs.com/) or [yarn](https://yarnpkg.com/)
 
-To learn more about Next.js, take a look at the following resources:
+### Installation
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/your-username/github-horoscope.git
+   cd github-horoscope
