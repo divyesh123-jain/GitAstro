@@ -48,46 +48,6 @@ GITHUB_API_TOKEN=your_github_api_token
 GEMINI_API_KEY=your_gemini_api_key
 
 
-# 📜 Project Structure
-<p>
-/Users/divyesh/Desktop/Projects/GitAstro/my-app/
-  ├─].next/ (ignored)
-  ├─]node_modules/ (ignored)
-  ├─ src/
-  │  ├─ app/
-  │  │  ├─ api/
-  │  │  │  └─ analyze/
-  │  │  │     └─ route.ts
-  │  │  ├─ fonts/
-  │  │  │  ├─ GeistMonoVF.woff
-  │  │  │  └─ GeistVF.woff
-  │  │  ├─ favicon.ico
-  │  │  ├─ globals.css
-  │  │  ├─ layout.tsx
-  │  │  └─ page.tsx
-  │  ├─ components/
-  │  │  ├─ FollowerList.tsx
-  │  │  ├─ Footer.tsx
-  │  │  ├─ HoroscopeForm.tsx
-  │  │  └─ HoroscopeResult.tsx
-  │  ├─ lib/
-  │  │  ├─ githubAPI.ts
-  │  │  └─ horoscopeGenerator.ts
-  │  └─ public/
-  │     └─ output-2-removebg-preview.png
-  ├─].env.local (ignored)
-  ├─ .eslintrc.json
-  ├─ .gitignore
-  ├─]next-env.d.ts (ignored)
-  ├─ next.config.mjs
-  ├─ package-lock.json
-  ├─ package.json
-  ├─ postcss.config.mjs
-  ├─ README.md
-  ├─ tailwind.config.ts
-  └─ tsconfig.json
-  </p>
-
 
 ## 🌠 Zodiac Signs
 
