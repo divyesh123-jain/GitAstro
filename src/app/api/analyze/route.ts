@@ -1,6 +1,6 @@
 import { NextResponse } from 'next/server';
-import { getGitHubUserData } from '../../../../lib/githubAPI';
-import { generateHoroscope } from '../../../../lib/horoscopeGenerator';
+import { getGitHubUserData } from '../../../lib/githubAPI';
+import { generateHoroscope } from '../../../lib/horoscopeGenerator';
 
 export async function POST(request: Request) {
   try {
