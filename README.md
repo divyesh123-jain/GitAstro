@@ -42,10 +42,10 @@ Make sure you have the following installed:
 3.  **Environment Variables:**
 Create a .env.local file in the root directory and add the following:
      ```bash
-env
-Copy code
-GITHUB_API_TOKEN=your_github_api_token
-GEMINI_API_KEY=your_gemini_api_key
+       
+
+       GITHUB_API_TOKEN=your_github_api_token
+        GEMINI_API_KEY=your_gemini_api_key
 
 
 
