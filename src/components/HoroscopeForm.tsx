@@ -21,10 +21,11 @@ export default function HoroscopeForm({ onSubmit }: HoroscopeFormProps) {
       if (response.status === 200) {
         // If valid, submit the keyword
         onSubmit(keyword);
-      }
-    } catch (error) {
+      } 
+    } catch (err) {
       // If there's an error, set an error message
-      setErrorMessage('Invalid GitHub username. Please try again.' + error);
+      console.log(err)
+      setErrorMessage('Invalid GitHub username. Please try again.' );
     }
   };
 
