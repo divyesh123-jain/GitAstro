@@ -32,11 +32,11 @@ export default function Home() {
 
   return (
     <div
-      className={`min-h-screen bg-black text-white w-full font-sans p-4 flex flex-col items-center  transition-all duration-300 ${
-        horoscope ? 'pt-[100px]' : 'pt-[100px]]'
+      className={`min-h-screen bg-black text-white w-full font-sans p-4 flex flex-col items-center transition-all duration-300 ${
+        horoscope ? 'pt-[80px]' : 'pt-[100px]'
       }`}
     >
-      <h1 className='text-white text-4xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-[7.5rem] font-bold animate-text bg-gradient-to-r from-teal-500 via-purple-500 to-orange-500 bg-clip-text text-transparent font-black text-center max-w-[90%] lg:max-w-3xl mx-auto'>
+      <h1 className='text-white text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-[7.5rem] font-bold animate-text bg-gradient-to-r from-teal-500 via-purple-500 to-orange-500 bg-clip-text text-transparent font-black text-center max-w-[90%] lg:max-w-3xl mx-auto'>
         GitAstro
       </h1>
       <HoroscopeForm onSubmit={handleSubmit} />
@@ -48,9 +48,11 @@ export default function Home() {
           <div className='h-8 w-8 bg-white rounded-full animate-bounce'></div>
         </div>
       ) : (
-        horoscope && 
-        <div className='flex flex-col w-[400px]'><HoroscopeResult horoscope={horoscope} />
-        </div>
+        horoscope && (
+          <div className='flex flex-col w-full max-w-[90%] sm:max-w-md mt-6'>
+            <HoroscopeResult horoscope={horoscope} />
+          </div>
+        )
       )}
     </div>
   );
