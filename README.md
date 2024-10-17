@@ -49,7 +49,7 @@ GEMINI_API_KEY=your_gemini_api_key
 
 
 # 📜 Project Structure
-
+<p>
 /Users/divyesh/Desktop/Projects/GitAstro/my-app/
   ├─].next/ (ignored)
   ├─]node_modules/ (ignored)
@@ -86,6 +86,7 @@ GEMINI_API_KEY=your_gemini_api_key
   ├─ README.md
   ├─ tailwind.config.ts
   └─ tsconfig.json
+  </p>
 
 
 ## 🌠 Zodiac Signs
