@@ -58,13 +58,13 @@ export default function Home() {
           >
             <div className="m-3">
               <HoroscopeResult horoscope={horoscope} />
-              <a href="#">
+             
                 <div
-                  className="w-16 h-16 sm:w-20 sm:h-20 rounded-full absolute bottom-0 left-0 m-0 flex justify-center items-center hover:ring-4 ring-gray-200 dark:ring-gray-400 hover:transition duration-700 ease-in-out"
+                  className="w-16 h-16 sm:w-20 sm:h-20 rounded-full absolute bottom-0 left-0 m-0 flex justify-center items-center  ease-in-out"
                 >
                   <Image src={GitAstro} alt="GitAstro" className="" />
                 </div>
-              </a>
+            
             </div>
           </div>
         )
