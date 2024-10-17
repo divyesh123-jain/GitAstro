@@ -5,6 +5,7 @@ import HoroscopeForm from '../components/HoroscopeForm';
 import HoroscopeResult from '../components/HoroscopeResult';
 import Image from 'next/image';
 import GitAstro from '../public/output-2-removebg-preview.png';
+import Footer from '@/components/Footer';
 
 export default function Home() {
   const [horoscope, setHoroscope] = useState(null);
@@ -69,6 +70,7 @@ export default function Home() {
           </div>
         )
       )}
+      <Footer />
     </div>
   );
 }
